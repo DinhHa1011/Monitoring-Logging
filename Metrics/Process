@@ -1,0 +1,6 @@
+1. Process management
+- Process management là một trong những vai trò quan trọng nhất của hệ thống. Process management hiệu quả cho phép ứng dụng họat động ổn định và hiệu quả. 
+- Việc triển khai process management tương tự như việc triển khai UNIX. Nó bao gồm lập lịch process (process scheduling), xử lý ngắt (interrupt handling), báo hiệu (signaling), ưu tiên process (process prioritization), chuyển đổi process (process switching), trạng thái process (process state), bộ nhớ process (process memory),...
+- Trong phần này, chúng ta sẽ thảo luận về các nguyên tắc cơ bản về việc triển khai quản lý process. Nó sẽ giúp bạn hiểu Linux kernel xử lý process sẽ ảnh hưởng thế nào đến hệ thống
+1.1. Process
+- Process là một ví dụ thực thi chạy trên bộ xử lý. Process sử dụng bất kỳ tài nguyên nào trên Linux kernel có thể xử lý để hoàn thành task.
